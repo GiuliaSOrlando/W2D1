@@ -61,7 +61,8 @@ const firstConstNumber = 12
 const secondConstNumber = 20
 let constSum = firstConstNumber + secondConstNumber
 
-console.log(sum, constSum)
+console.log('La somma di due variabili i cui valori sono rispettivamente 12 e 20 è di', sum)
+console.log('La somma di due costanti i cui valori sono rispettivamente 12 e 20 è anch`essa di', constSum)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -82,7 +83,7 @@ let x = 12
 */
 
 subResult = 4 - x 
-console.log(subResult)
+console.log('Se x = 12, 4 - x =', subResult)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -92,5 +93,5 @@ console.log(subResult)
 
 let name1 = 'john'
 let name2 = 'John'
-console.log(name1 !== name2)
-console.log(name1 === name2.toLowerCase())
+console.log('Le variabili name1 e name2 sono diverse?', name1 !== name2)
+console.log('Ora le variabili name1 e name2 sono uguali?', name1 === name2.toLowerCase())
